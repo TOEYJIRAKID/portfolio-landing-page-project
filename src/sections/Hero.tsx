@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 import StarIcon from "@/assets/icons/star.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
 import grainImage from "@/assets/images/grain.jpg";
@@ -7,9 +9,12 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 import memojiImage from "@/assets/images/memoji-computer.png";
 
 export const HeroSection = () => {
+
+  const [isActive] = useState(false);
+
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] -z-10">
         <div className="absolute inset-0 -z-30 opacity-5" style={{ backgroundImage: `url(${grainImage.src})`, }}></div>
         <div className="size-[620px] hero-ring"></div>
         <div className="size-[820px] hero-ring"></div>
@@ -46,14 +51,14 @@ export const HeroSection = () => {
           <div className="size-2 rounded-full bg-emerald-300/20" />
         </HeroOrbit>
       </div>
-      <div className="container">
+      <div className="container relative z-10">
         <div className="flex flex-col items-center">
           <Image src={memojiImage} className="size-[100px]" alt="Person peeking from behind laptop" />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-            <div className="bg-green-500 size-2.5 rounded-full relative">
-              <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
+            <div className={`${isActive ? "bg-green-500" : "bg-red-500"} size-2.5 rounded-full relative`}>
+              <div className={`${isActive ? "bg-green-500 animate-ping-large" : "bg-red-500 animate-ping-large"} absolute inset-0 rounded-full`}></div>
             </div>
-            <div className="text-sm font-medium">Available for new projects</div>
+            <div className="text-sm font-medium">{isActive ? "Available for new projects" : "Not available for new projects"}</div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
