@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import { Inter, Calistoga } from 'next/font/google'
 import "./globals.css";
+import type { Metadata } from "next";
 import { twMerge } from "tailwind-merge";
+import { Inter, Calistoga } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weight: ["400"], });

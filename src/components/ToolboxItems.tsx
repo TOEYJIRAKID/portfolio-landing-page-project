@@ -1,6 +1,6 @@
-import { TechIcon } from "@/components/TechIcon";
-import { twMerge } from "tailwind-merge";
 import { Fragment } from "react";
+import { twMerge } from "tailwind-merge";
+import { TechIcon } from "@/components/TechIcon";
 
 export const ToolboxItems = ({ items, className, itemsWrapperClassName }: {
     items: {
