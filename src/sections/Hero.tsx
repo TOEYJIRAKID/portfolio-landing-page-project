@@ -11,7 +11,7 @@ import memojiImage from "@/assets/images/memoji-computer.png";
 
 export const HeroSection = () => {
 
-  const [isActive] = useState(false);
+  const [isActive] = useState(true);
 
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
@@ -63,9 +63,9 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="max-w-lg mx-auto">
-          <h1 className="font-orbitron text-3xl md:text-5xl text-center mt-8 tracking-wide">
+          <h1 className="text-center mt-8">
             <TypeAnimation
-              className="font-orbitron text-3xl md:text-5xl text-center mt-8 tracking-wide"
+              className="font-orbitron text-3xl md:text-5xl tracking-wide"
               sequence={[
                 "Hello, World!",
                 1800,
