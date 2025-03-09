@@ -1,3 +1,4 @@
+import { Cursor } from "@/sections/Cursor";
 import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { ProjectsSection } from "@/sections/Projects";
@@ -10,6 +11,7 @@ import { Footer } from "@/sections/Footer";
 export default function Home() {
   return (
     <div>
+      <Cursor />
       <Header />
       <HeroSection />
       <ProjectsSection />
