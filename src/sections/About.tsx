@@ -45,20 +45,20 @@ const toolboxItems = [
 
 const hobbies = [
   {
-    title: "Painting",
-    emoji: "🎨",
+    title: "Cooking",
+    emoji: "🍳",
     left: "5%",
     top: "5%",
   },
   {
-    title: "Photography",
-    emoji: "📷",
+    title: "Movie",
+    emoji: "🍿",
     left: "50%",
     top: "5%",
   },
   {
-    title: "Hiking",
-    emoji: "🥾",
+    title: "Podcast",
+    emoji: "🎧",
     left: "35%",
     top: "40%",
   },
@@ -75,8 +75,8 @@ const hobbies = [
     top: "45%",
   },
   {
-    title: "Fitness",
-    emoji: "🏋",
+    title: "Learning",
+    emoji: "🏫",
     left: "5%",
     top: "65%",
   },
@@ -91,7 +91,7 @@ const hobbies = [
 export const AboutSection = () => {
   const constrainRef = useRef(null);
   return (
-    <div className="py-20 lg:py-28">
+    <section id="about" className="py-20 lg:py-28">
       <div className="container">
         <SectionHeader eyebrow="About Me" title="A Glimpse Into My World" description="Learn more about who I am, what I do, and what inspires me." />
         <div className="mt-20 flex flex-col gap-8">
@@ -131,6 +131,6 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

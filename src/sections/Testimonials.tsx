@@ -43,7 +43,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <div className="py-16 lg:py-24">
+    <section id="skill" className="py-16 lg:py-24">
       <div className="container">
         <SectionHeader eyebrow="Happy Clients" title="What Clients Say about Me" description="Dont't just take my word for it. See what my clients have to say about my work." />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
@@ -69,6 +69,6 @@ export const TestimonialsSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

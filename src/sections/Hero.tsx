@@ -6,7 +6,7 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 import grainImage from "@/assets/images/grain.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import SparkleIcon from "@/assets/icons/sparkle.svg";
-import ArrowDown from "@/assets/icons/arrow-down.svg";
+import Download from "@/assets/icons/download.svg";
 import memojiImage from "@/assets/images/memoji-computer.png";
 
 export const HeroSection = () => {
@@ -14,7 +14,7 @@ export const HeroSection = () => {
   const [isActive] = useState(true);
 
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <section id="home" className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] -z-10">
         <div className="absolute inset-0 -z-30 opacity-5" style={{ backgroundImage: `url(${grainImage.src})`, }}></div>
         <div className="size-[620px] hero-ring"></div>
@@ -86,16 +86,19 @@ export const HeroSection = () => {
           <p className="mt-4 text-center text-white/60 md:text-lg">I specialize in developing practical and high-performance web applications. Let’s discuss your next project.</p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-            <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4" />
-          </button>
+          <a href="https://drive.google.com/file/d/15q-qOtlov-qq69oddgraGPTsVgem1QO6/view?usp=sharing"
+            target="_blank"
+            rel="CV Links"
+            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+            <span className="font-semibold">Download CV</span>
+            <Download className="size-4" />
+          </a>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

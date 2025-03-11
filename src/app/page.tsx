@@ -11,7 +11,7 @@ import { Footer } from "@/sections/Footer";
 export default function Home() {
   return (
     <div>
-      <Cursor />
+      {/* <Cursor /> */}
       <Header />
       <HeroSection />
       <ProjectsSection />
