@@ -23,5 +23,5 @@ npm run dev
 ```
 
 ## Example Image
-![landing-page-1](https://github.com/user-attachments/assets/a7ada9f2-5317-4dc8-a489-e9bdd04d5b1b)
-![landing-page-2](https://github.com/user-attachments/assets/0bb5c6af-0d16-469c-b20b-9d57d3d35455)
+![myport-toeyjira](https://github.com/user-attachments/assets/648d6854-d540-486d-be28-c1d963456043)
+
