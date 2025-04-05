@@ -22,7 +22,7 @@ MYPORT TOEYJIRA is a Landing Page for a personal portfolio, inspired by [@Fronte
 
 ## 🛠 **Tech Stack** :
 
-- **Frontend:** Next.js, React.js, HTML5, Tailwind CSS, Typescript
+- **Frontend:** HTML5, Tailwind CSS, TypeScript, Next.js, React.js
 - **Deployment:** Vercel
 
 ## 📂 **GitHub Repository (Source Code)** :
@@ -43,7 +43,7 @@ MYPORT TOEYJIRA is a Landing Page for a personal portfolio, inspired by [@Fronte
    ```bash
    npm run dev
    ```  
-4. **Open http://localhost:3000/ to view the project.**
+4. **Open http://localhost:3000 to view the project.**
 
 ## 📽️ **Project Preview** :
 
