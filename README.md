@@ -47,4 +47,5 @@ MYPORT TOEYJIRA is a Landing Page for a personal portfolio, inspired by [@Fronte
 
 ## 📽️ **Project Preview** :
 
-![myport-toeyjira](https://github.com/user-attachments/assets/648d6854-d540-486d-be28-c1d963456043)
+![myport-toeyjira](https://github.com/user-attachments/assets/5ebce9a1-9195-4448-b70e-0545e6ebd1ab)
+
