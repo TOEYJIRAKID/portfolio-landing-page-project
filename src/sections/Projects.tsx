@@ -3,46 +3,46 @@ import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import porttoeyjira from "@/assets/images/Port-Toeyjira-Img.png";
+import myporttoeyjira from "@/assets/images/Myport-Toeyjira-Img.png";
+import justcamp from "@/assets/images/Just-Camp-Img.png";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "PORT TOEYJIRA",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Responsive on all devices" },
+      { title: "50% faster load performance" },
+      { title: "SEO optimized structure" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://port-toeyjira.vercel.app/",
+    image: porttoeyjira,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "MYPORT TOEYJIRA",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Dynamic portfolio presentation" },
+      { title: "Improved mobile user experience" },
+      { title: "Clean and modern personal site" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://myport-toeyjira.vercel.app/",
+    image: myporttoeyjira,
   },
   {
-    company: "Quantum Dynamics",
+    company: "Personal Project",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "JUSTCAMP",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Smooth booking experience" },
+      { title: "50% faster site loading" },
+      { title: "Mobile-friendly interface" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://toeyjirakid.github.io/Camping-Booking-Website/",
+    image: justcamp,
   },
 ];
 

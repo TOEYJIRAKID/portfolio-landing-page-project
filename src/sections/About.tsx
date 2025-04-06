@@ -10,7 +10,7 @@ import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import { CardHeader } from "@/components/CardHeader";
-import bookImage from "@/assets/images/book-cover.png";
+import bookImage from "@/assets/images/book-cover-2.png";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
@@ -99,7 +99,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader title="My Reads" description="Explore the books shaping my perspectives." />
               <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="Book cover" />
+                <Image src={bookImage} alt="Book cover"/>
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">

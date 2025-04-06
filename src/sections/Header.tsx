@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 const navLinks = [
   { id: "home", label: "Home" },
   { id: "project", label: "Project" },
-  { id: "skill", label: "Skill" },
+  { id: "client", label: "Client" },
   { id: "about", label: "About" },
 ];
 
@@ -50,9 +50,8 @@ export const Header = () => {
           <a
             key={link.id}
             href={`#${link.id}`}
-            className={`nav-item ${
-              activeSection === link.id ? "bg-white text-gray-900 font-semibold" : ""
-            }`}
+            className={`nav-item ${activeSection === link.id ? "bg-white text-gray-900 font-semibold" : ""
+              }`}
           >
             {link.label}
           </a>

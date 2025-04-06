@@ -13,6 +13,10 @@ export const HeroSection = () => {
 
   const [isActive] = useState(true);
 
+  const handleEmailClick = () => {
+    window.location.href = "mailto:jirakid2002@gmail.com";
+  };
+
   return (
     <section id="home" className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] -z-10">
@@ -93,7 +97,7 @@ export const HeroSection = () => {
             <span className="font-semibold">Download CV</span>
             <Download className="size-4" />
           </a>
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+          <button onClick={handleEmailClick} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>
           </button>

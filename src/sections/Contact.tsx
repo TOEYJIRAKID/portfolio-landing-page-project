@@ -1,7 +1,13 @@
+'use client'
 import grainImage from "@/assets/images/grain.jpg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 export const ContactSection = () => {
+
+  const handleEmailClick = () => {
+    window.location.href = "mailto:jirakid2002@gmail.com";
+  };
+
   return (
     <div className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
@@ -13,7 +19,7 @@ export const ContactSection = () => {
               <p className="text-sm md:text-base mt-2">Ready to bring your next project to life? Let&apos;s connect and disscuss how I can help you achieve your goals.</p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+              <button onClick={handleEmailClick} className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
               </button>
